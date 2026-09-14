@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería de innovación didáctica: Cuadros vivos</title>
+  <style>
+    :root{
+      --verde:#1f6b45;
+      --verde-claro:#eaf4ee;
+      --dorado:#d3a527;
+      --texto:#1f2933;
+      --gris:#f6f7f8;
+      --borde:#d9e0e4;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--texto);
+      background:#ffffff;
+      line-height:1.65;
+    }
+    header{
+      background:linear-gradient(135deg,#174f34,#2c8057);
+      color:white;
+      padding:64px 24px;
+      text-align:center;
+    }
+    header h1{
+      margin:0 0 12px;
+      font-size:clamp(2rem,5vw,3.5rem);
+    }
+    header p{
+      max-width:850px;
+      margin:0 auto;
+      font-size:1.08rem;
+    }
+    nav{
+      position:sticky;
+      top:0;
+      z-index:10;
+      background:white;
+      border-bottom:1px solid var(--borde);
+      padding:12px 18px;
+      text-align:center;
+    }
+    nav a{
+      color:var(--verde);
+      text-decoration:none;
+      font-weight:700;
+      margin:0 8px;
+      display:inline-block;
+      padding:6px 4px;
+    }
+    main{
+      max-width:1100px;
+      margin:auto;
+      padding:36px 20px 56px;
+    }
+    .intro{
+      background:var(--verde-claro);
+      border-left:5px solid var(--verde);
+      padding:22px;
+      border-radius:10px;
+      margin-bottom:32px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:22px;
+    }
+    .card{
+      border:1px solid var(--borde);
+      border-radius:14px;
+      padding:24px;
+      background:#fff;
+      box-shadow:0 5px 18px rgba(0,0,0,.05);
+    }
+    .card h2{
+      margin-top:0;
+      color:var(--verde);
+      font-size:1.35rem;
+    }
+    .tag{
+      display:inline-block;
+      background:#f7edc6;
+      color:#694f00;
+      font-size:.82rem;
+      font-weight:700;
+      padding:4px 9px;
+      border-radius:999px;
+      margin-bottom:10px;
+    }
+    section{
+      scroll-margin-top:80px;
+    }
+    .full{
+      margin-top:24px;
+    }
+    ul{padding-left:22px}
+    .ref{
+      background:var(--gris);
+      border-radius:12px;
+      padding:22px;
+      margin-top:22px;
+    }
+    footer{
+      background:#183c2b;
+      color:white;
+      text-align:center;
+      padding:26px 18px;
+      font-size:.92rem;
+    }
+    .small{font-size:.95rem}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Galería de innovación didáctica: Cuadros vivos</h1>
+  <p>Curaduría académica de una experiencia real de innovación didáctica desarrollada en la Institución Educativa de Guataca Sur, en un contexto rural del departamento de Bolívar.</p>
+</header>
+
+<nav>
+  <a href="#contexto">Contexto</a>
+  <a href="#enfoque">Enfoque</a>
+  <a href="#metodologia">Metodología</a>
+  <a href="#tic">TIC</a>
+  <a href="#aportes">Aportes</a>
+  <a href="#reflexion">Reflexión</a>
+  <a href="#referencias">Referencias</a>
+</nav>
+
+<main>
+  <div class="intro">
+    <strong>Propósito de la galería.</strong> Analizar pedagógicamente la experiencia “Cuadros vivos”, reconociendo su contexto educativo, enfoque pedagógico, metodología activa, uso de TIC, aportes innovadores y posibilidades de transferencia a otras prácticas educativas.
+  </div>
+
+  <div class="grid">
+    <section id="contexto" class="card">
+      <div class="tag">1. Contexto educativo</div>
+      <h2>Escuela rural, territorio y comunidad</h2>
+      <p>La experiencia “Cuadros vivos” se desarrolló en la Institución Educativa de Guataca Sur, ubicada en el corregimiento de Guataca Sur, municipio de Margarita, departamento de Bolívar. Es una institución pública rural que atiende aproximadamente 429 estudiantes y trabaja con el modelo Escuela Nueva, además de programas para jóvenes y adultos en extraedad.</p>
+      <p>La propuesta vinculó escuela, tradición, cultura, religión y participación comunitaria, involucrando a estudiantes, docentes, familias y habitantes del entorno en una galería abierta al público.</p>
+    </section>
+
+    <section id="enfoque" class="card">
+      <div class="tag">2. Enfoque pedagógico</div>
+      <h2>Aprendizaje experiencial y educación patrimonial</h2>
+      <p>La experiencia se sustenta en un enfoque centrado en el aprendizaje experiencial, la educación patrimonial y la construcción de sentido desde la cultura local. El estudiante deja de ocupar un papel pasivo y se convierte en protagonista de una experiencia de representación, interpretación y creación colectiva.</p>
+      <p>La propuesta favorece la identidad cultural, la apropiación del territorio y la relación entre escuela y comunidad, al transformar el contenido académico en una vivencia significativa.</p>
+    </section>
+
+    <section id="metodologia" class="card">
+      <div class="tag">3. Metodología activa</div>
+      <h2>Aprendizaje Basado en Proyectos</h2>
+      <p>La metodología principal es el Aprendizaje Basado en Proyectos (ABP), complementado con aprendizaje cooperativo y elementos de pedagogía teatral.</p>
+      <ul>
+        <li>Investigación y selección del tema.</li>
+        <li>Diseño y planificación de la escena.</li>
+        <li>Organización de materiales y utilería.</li>
+        <li>Ensayo y preparación corporal.</li>
+        <li>Exposición pública ante la comunidad.</li>
+      </ul>
+      <p>El proceso promueve creatividad, trabajo en equipo, toma de decisiones, resolución de problemas y responsabilidad compartida.</p>
+    </section>
+
+    <section id="tic" class="card">
+      <div class="tag">4. Uso de TIC</div>
+      <h2>Tecnología al servicio del aprendizaje</h2>
+      <p>Las TIC pueden apoyar la búsqueda de información, el diseño y la socialización de la experiencia mediante buscadores, repositorios digitales, fotografías, videos y herramientas como Padlet, Canva o Genially.</p>
+      <p>Su aporte pedagógico está en investigar, documentar, comunicar y conservar la memoria de una práctica que, por su carácter efímero, podría perderse si no se registra.</p>
+      <p class="small"><strong>Aclaración:</strong> se diferencia entre las herramientas realmente utilizadas en la experiencia y aquellas que se proponen como posibilidades de fortalecimiento.</p>
+    </section>
+
+    <section id="aportes" class="card">
+      <div class="tag">5. Aportes innovadores</div>
+      <h2>La comunidad como escenario pedagógico</h2>
+      <p>Uno de los aportes principales es la transformación de calles, fachadas y espacios comunitarios en escenarios de enseñanza y aprendizaje.</p>
+      <ul>
+        <li>Integra escuela, familia y comunidad.</li>
+        <li>Favorece el trabajo interdisciplinario.</li>
+        <li>Reconoce saberes locales y oficios de la comunidad.</li>
+        <li>Fortalece identidad cultural y sentido de pertenencia.</li>
+        <li>Convierte al estudiante en creador y comunicador de conocimiento.</li>
+      </ul>
+    </section>
+
+    <section id="reflexion" class="card">
+      <div class="tag">6. Reflexión metacognitiva</div>
+      <h2>Lo que esta experiencia enseña</h2>
+      <p>El análisis de “Cuadros vivos” permite reconocer que la innovación didáctica no depende únicamente de tecnologías avanzadas. También surge de la capacidad del docente para resignificar el contexto y convertirlo en oportunidad pedagógica.</p>
+      <p>La experiencia muestra que el aprendizaje puede ser vivencial, colaborativo, interdisciplinario y situado en el territorio. Puede transferirse a otras prácticas educativas mediante propuestas en las que los estudiantes investiguen, creen, representen y comuniquen saberes vinculados con su propia realidad.</p>
+    </section>
+  </div>
+
+  <section class="card full">
+    <div class="tag">7. Conclusión</div>
+    <h2>Una experiencia de innovación situada</h2>
+    <p>“Cuadros vivos” constituye una experiencia de innovación didáctica porque transforma una tradición cultural en una estrategia pedagógica participativa, fortalece el protagonismo estudiantil, promueve el trabajo cooperativo y articula el aprendizaje con el territorio.</p>
+  </section>
+
+  <section id="referencias" class="ref">
+    <h2>Referencias APA 7</h2>
+    <p>Johnson, D. W., &amp; Johnson, R. T. (1999). <em>Learning together and alone: Cooperative, competitive, and individualistic learning</em> (5th ed.). Allyn and Bacon.</p>
+    <p>Kolb, D. A. (1984). <em>Experiential learning: Experience as the source of learning and development</em>. Prentice Hall.</p>
+    <p>Ministerio de las Culturas, las Artes y los Saberes. (s. f.). <em>Plan especial de salvaguardia de los Cuadros Vivos de Galeras, Sucre</em>.</p>
+    <p>Thomas, J. W. (2000). <em>A review of research on project-based learning</em>. Autodesk Foundation.</p>
+    <p>UNESCO. (2024). <em>Cuadros vivos de Galeras, Sucre</em>.</p>
+  </section>
+
+  <section class="ref">
+    <h2>Uso ético de inteligencia artificial</h2>
+    <p>Se utilizó ChatGPT como herramienta de apoyo para la organización, revisión de estilo y fortalecimiento de la redacción académica. La selección de la experiencia, el análisis pedagógico, la estructuración del contenido y la autoría final corresponden al grupo de estudiantes.</p>
+  </section>
+</main>
+
+<footer>
+  Galería virtual interactiva · Innovación didáctica · 2026
+</footer>
+
+</body>
+</html>
